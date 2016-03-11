@@ -1,6 +1,6 @@
 # Sample apps using Layer Web SDK
 
-This repository contains sample chat applications that use *Private Beta* version of the Layer Web SDK to demonstrate how one would use the SDK to build a simple chat application using one of these three popular frameworks:
+This repository contains sample chat applications that use *Public Beta* version of the Layer Web SDK to demonstrate how one would use the SDK to build a simple chat application using one of these three popular frameworks:
 
  - [Backbone](./backbone)
  - [Angular](./angular)
@@ -8,7 +8,9 @@ This repository contains sample chat applications that use *Private Beta* versio
 
 Each sample app implementation is framework specific and not necessarily a demonstration of best practice.
 
-> These examples are built using the *Private Beta* version of the Layer Web SDK; the Web SDK is NOT ready for production use.
+> These examples are built using the *Public Beta* version of the Layer Web SDK; the Web SDK is NOT ready for production use.
+
+![Screenshot](sample-screenshot.png)
 
 ## The Web SDK
 
