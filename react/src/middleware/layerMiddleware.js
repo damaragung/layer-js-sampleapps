@@ -73,7 +73,7 @@ function handleAction(layerClient, typingPublisher, state, action, next) {
         .getConversation(payload.conversationId);
 
       if (confirm('Are you sure you want to delete this conversation?')) {
-        conversation.delete(true);
+        conversation.delete(layer.Constants.DELETION_MODE.ALL);
       }
       return;
     default:

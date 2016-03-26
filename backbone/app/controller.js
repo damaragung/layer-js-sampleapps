@@ -113,7 +113,7 @@ module.exports = function(client) {
   conversationsView.on('conversation:delete', function(conversationId) {
     var conversation = client.getConversation(conversationId);
     if (confirm('Are you sure you want to delete this conversation?')) {
-      conversation.delete(true);
+      conversation.delete(layer.Constants.DELETION_MODE.ALL);
     }
   });
   messagesView.on('messages:paginate', function() {

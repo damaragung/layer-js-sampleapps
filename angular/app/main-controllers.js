@@ -194,7 +194,7 @@ sampleControllers.controller('conversationListCtrl', function ($scope, $rootScop
     if (conversationInstance) {
       window.setTimeout(function() {
         if (confirm('Are you sure you want to delete this conversation?')) {
-          conversationInstance.delete(true);
+          conversationInstance.delete(layer.Constants.DELETION_MODE.ALL);
         }
       }, 1);
     }
